@@ -25,7 +25,7 @@ Copy script from repository:
 
 ::
 
-    $ vim ttawsid.py
+    $ vim awsid.py
     $ vim check-reserved-instances.py
 
 Configuration
@@ -36,7 +36,7 @@ script loads the configuration from ttawsid.py in the current directory.
 
 ::
 
-    $ vim ttawsid.py
+    $ vim awsid.py
 
 Configuring AWS Accounts/Credentials
 ------------------------------------
@@ -72,7 +72,7 @@ For one-time use, execute the script:
 ::
 
     $ python /opt/aws/check-reserved-instances/check-reserved-instances.py
-    ===> EC2 Lineate Infrastructure -> AWS EC2 Reserved Instances - {'Lineate Infrastructure': {'unreserved_instances': {('t3a.large', 'eu-central-1a'): 1}, 'unused_reservations': {}}}
+    ===> EC2 Infrastructure -> AWS EC2 Reserved Instances - {'Infrastructure': {'unreserved_instances': {('t3a.large', 'eu-central-1a'): 1}, 'unused_reservations': {}}}
 
 Required IAM Permissions
 ------------------------
