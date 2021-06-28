@@ -32,7 +32,7 @@ Configuration
 -------------
 
 A sample configuration file is provided for easy use. By default, the
-script loads the configuration from ttawsid.py in the current directory.
+script loads the configuration from awsid.py in the current directory.
 
 ::
 
