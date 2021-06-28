@@ -4,7 +4,7 @@ check-reserved-instances
 Check Reserved Instances - Compare instance reservations with running
 instances
 
-Amazonís reserved instances are a great way to save money when using
+Amazon ís reserved instances are a great way to save money when using
 EC2, RDS, ElastiCache, etc. An instance reservation is specified by an
 availability zone, instance type, and quantity. Correlating the
 reservations you currently have active with your running instances is a
